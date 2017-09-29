@@ -2,16 +2,16 @@
 <resources>
     <!--敏行服务器地址 如果是80端口，千万不用写 -->
     <!--  内：http://172.32.5.217 外：http://etest.cgnb.cn:8129 ,prod: 内：http://172.32.5.217 外：https://ebank.cgnb.cn:8098 -->
-    <!--<string name="client_conf_http_host">https://ebank.cgnb.cn:8098</string>-->
+    <string name="client_conf_http_host">https://ebank.cgnb.cn:8098</string>
     <!--测试地址-->
-    <string name="client_conf_http_host">http://etest.cgnb.cn:2220</string>
+    <!--<string name="client_conf_http_host">http://etest.cgnb.cn:2220</string>-->
     <!--阿里云地址 -->
     <!--<string name="client_conf_http_host">http://im.zsmarter.com</string>-->
     <!--敏行服务器推送地址 -->
     <!--  内：172.32.5.217:1883 外：etest.cgnb.cn:8130, prod: 内：172.32.5.217:1883 外：ebank.cgnb.cn:8099 -->
-    <!--<string name="client_conf_push_host">ssl://ebank.cgnb.cn:8099</string>-->
+    <string name="client_conf_push_host">ssl://ebank.cgnb.cn:8099</string>
     <!--测试地址-->
-    <string name="client_conf_push_host">ssl://etest.cgnb.cn:2221</string>
+    <!--<string name="client_conf_push_host">ssl://etest.cgnb.cn:2221</string>-->
     <!--阿里云地址 -->
     <!--<string name="client_conf_push_host">ssl://im.zsmarter.com:1883</string>-->
     <!--应用中心URL-->

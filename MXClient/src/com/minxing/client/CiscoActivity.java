@@ -1,5 +1,6 @@
 package com.minxing.client;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -70,13 +71,13 @@ public class CiscoActivity extends Activity implements View.OnClickListener {
                 Log.i("hcb",state.name());
                 if (state == JabberGuestCall.State.GuestCallStateDisconnected) {
                     // Show the SelfView
-                    adjustSelfView(false);
+//                    adjustSelfView(false);
                     //create a new instance for the next call
 //                    mInstance = JabberGuestCall.createInstance(mContext, mCallUri);
                     hideCall();
                 } else if (state == JabberGuestCall.State.GuestCallStateConnected) {
                     // Hide the SelfView
-                    adjustSelfView(true);
+//                    adjustSelfView(true);
                     showCall();
                 } else if (state == JabberGuestCall.State.GuestCallStateDisconnecting) {
                     Toast.makeText(getApplicationContext(), "Ending call......", Toast.LENGTH_LONG).show();
@@ -91,6 +92,8 @@ public class CiscoActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cisco);
+        ActionBar actionBar = getActionBar();
+        actionBar.show();
 
         Intent intent = getIntent();
         DEFAULT_SERVER = intent.getStringExtra(CISCO_SERVER);
@@ -160,15 +163,15 @@ public class CiscoActivity extends Activity implements View.OnClickListener {
     private void showCall() {
 //        btCall.setVisibility(View.GONE);
 
-        CustomCallFragment callFragment = (CustomCallFragment) getFragmentManager().findFragmentByTag("CallFragment");
+//        CustomCallFragment callFragment = (CustomCallFragment) getFragmentManager().findFragmentByTag("CallFragment");
 
-        if (callFragment == null)
-            callFragment = new CustomCallFragment();
+//        if (callFragment == null)
+//            callFragment = new CustomCallFragment();
 
-        getFragmentManager().beginTransaction().replace(R.id.placeHolderLinearLayout, callFragment, "CallFragment").commit();
+//        getFragmentManager().beginTransaction().replace(R.id.placeHolderLinearLayout, callFragment, "CallFragment").commit();
 
-//        CallFragment callFragment = new CallFragment();
-//        getFragmentManager().beginTransaction().replace(R.id.placeHolderLinearLayout, callFragment).commit();
+        CallFragment callFragment = new CallFragment();
+        getFragmentManager().beginTransaction().replace(R.id.placeHolderLinearLayout, callFragment).commit();
 
         mCallPlaceholder.setVisibility(View.VISIBLE);
 
