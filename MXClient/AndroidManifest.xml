@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.minxing.client"
-    android:versionCode="1000009"
-    android:versionName="1.0.9">
+    android:versionCode="1000010"
+    android:versionName="1.1.0">
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -1283,6 +1283,10 @@ otherwise it would make K-9 start at the wrong time
 
         <!--cisco demo-->
         <activity android:name="com.minxing.client.CiscoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material">
+        </activity>
+        <activity android:name="com.cisco.jabber.guest.sdk.statistics.CallStatisticActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Material">
         </activity>
