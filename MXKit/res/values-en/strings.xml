@@ -667,12 +667,24 @@
     <string name="mx_message_type_annoucement">notice</string>
     <string name="mx_toast_max_limit_count">Select at most %s option(s).</string>
 
+
     <string name="mx_app_center_banner_default_title_1">Private, secure and integrated Wechat-like mobile platform</string>
     <string name="mx_app_center_banner_default_title_2">Let enterprise have its mobile solution in no time</string>
     <string name="mx_red_packet_title">Good luck!</string>
     <string name="mx_red_packet_description">Open Red Envelope</string>
     <string name="mx_red_packet_trademask">Red Envelope</string>
     <string name="mx_red_packet_choose_conversation">Select Conversation</string>
+
+    <string name="mx_label_group_management">群管理</string>
+    <string name="mx_label_group_invite">群聊邀请确认</string>
+    <string name="mx_label_group_admin_right_transfer">群聊管理员转让</string>
+    <string name="mx_label_group_invite_tip">启用后，群成员需群管理员确认才能邀请其他人进群。扫描二维码进群将同时停用。</string>
+    <string name="mx_label_group_wait_audit">你邀请%1$s加入群聊，等待管理员审核</string>
+    <string name="mx_operation">操作</string>
+    <string name="mx_label_group_qr_mask">已开启群聊邀请确认\n只可通过邀请进群</string>
+    <string name="mx_label_group_select_new_admin">选择新管理员</string>
+    <string name="mx_label_group_select_new_admin_detail">确认选择%1$s为群管理员，你将被取消群管理员权限</string>
+
    
     <!-- Video Conference -->
     <string name="chat_video_status_name">Video Conference</string>
@@ -754,4 +766,6 @@
     <string name="mx_toast_app_is_not_in_foreground"></string>
 
     <string name="mx_menu_delete">删除</string>
+    <string name="mx_share_from_outerapp">来自外部分享</string>
+
 </resources>

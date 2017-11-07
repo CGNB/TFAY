@@ -4,6 +4,33 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_mx_mail_account_check_settings_header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mx_title_bar_height"
+        android:background="@color/mx_title_bar_color">
+
+        <ImageButton
+            android:id="@+id/btn_mx_mail_mx_mail_account_check_settings_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mx_btn_back" />
+
+        <com.minxing.kit.ui.widget.MXVariableTextView
+            android:id="@+id/tv_mx_mail_account_check_settings_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@color/mx_white"
+            android:textSize="@dimen/mx_max_textsize" />
+
+    </RelativeLayout>
+
 <ScrollView
     android:layout_width="fill_parent"
     android:layout_height="0dp"

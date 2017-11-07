@@ -8,6 +8,7 @@
         android:targetSdkVersion="14" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -47,9 +48,10 @@
         android:name="android.hardware.touchscreen"
         android:required="false" />
     <!-- K9 end -->
-
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
     <application>
-
         <!--
         android:label="敏行Kit"
         android:name="com.minxing.kit.mail.k9.K9ApplicationForDev"
@@ -272,6 +274,11 @@
              android:configChanges="keyboardHidden|orientation|screenSize"
             android:windowSoftInputMode="stateHidden|adjustResize"
              />
+        <activity
+            android:name="com.minxing.kit.internal.im.ConversationManagementActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name="com.minxing.kit.internal.im.ConversationCatalogActivity"
              android:configChanges="keyboardHidden|orientation|screenSize"
@@ -848,6 +855,9 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" />
 
+        <activity android:name="com.minxing.kit.plugin.android.circle.MXCircleTextMessageTestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

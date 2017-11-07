@@ -155,7 +155,6 @@
                     android:background="@color/mx_segmentation_line_color" />
             </LinearLayout>
 
-
             <RelativeLayout
                 android:id="@+id/rl_mx_conversation_messagae_setting_announce"
                 style="@style/mx_bg_setting_item_is_divide"
@@ -206,6 +205,49 @@
                     android:textColor="@color/mx_darkgrey" />
 
             </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/mx_line_group_mangagement_bellow"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/mx_segmentation_line_little"
+                android:background="@color/mx_white">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/mx_segmentation_line_little"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:background="@color/mx_segmentation_line_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_mx_conversation_messagae_setting_group_mangagement"
+                style="@style/mx_bg_setting_item_is_divide"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.minxing.kit.ui.widget.MXVariableTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:text="@string/mx_label_group_management"
+                    android:textColor="@color/mx_black" />
+
+                <com.minxing.kit.ui.widget.MXVariableTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="10dip"
+                    android:drawableRight="@drawable/mx_mm_submenu"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:textColor="@color/mx_darkgrey" />
+            </LinearLayout>
+
 
             <!-- //特别关注成员 -->
             <LinearLayout
@@ -264,8 +306,8 @@
                     android:gravity="right"
                     android:singleLine="true"
                     android:textColor="@color/mx_darkgrey" />
-            </LinearLayout>
 
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/conversatin_top_layout"

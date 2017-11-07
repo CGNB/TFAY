@@ -6,7 +6,6 @@
 
     <LinearLayout
         style="@style/mx_mm_footer"
-        android:layout_height="wrap_content"
         android:background="@drawable/mx_bg_bottombar_white"
         android:orientation="horizontal" >
 
@@ -28,7 +27,7 @@
                 android:layout_width="@dimen/mx_footer_texttolist_switcher_width"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/mx_chatting_footer_switcher_input_selector" />
+                android:background="@drawable/mx_chatting_footer_switcher_input_selector" />
 
             <ImageView
                 android:layout_width="wrap_content"

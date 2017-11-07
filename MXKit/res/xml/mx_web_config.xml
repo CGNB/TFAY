@@ -163,7 +163,14 @@
             name="onload"
             value="true" />
     </feature>
-
+    <feature name="MXNfcPlugin">
+        <param
+            name="android-package"
+            value="com.cordava.plugins.nfc.MXNfcPlugin" />
+        <param
+            name="onload"
+            value="true" />
+    </feature>
     <preference
         name="Fullscreen"
         value="false" />

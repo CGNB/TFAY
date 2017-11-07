@@ -9,7 +9,7 @@
         android:id="@+id/custom_header"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/mx_title_bar_height"
-        android:background="@drawable/bg_chart" >
+        android:background="@color/mx_title_bar_color" >
     </RelativeLayout>
 
     <include

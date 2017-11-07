@@ -10,5 +10,13 @@
     <string name="mx_auto_upload_interval_time">0</string><!--分钟级别-->
     <string name="mx_auto_upload_request_url">http://192.168.100.230:8008/test</string><!--上传地址-->
     <string name="mx_circle_image_cache_memory">true</string>
+
     <string name="mx_appcenter_storage_external">false</string>
+
+
+    <string-array name="mx_web_param_white_list">
+        <item>https://www.baidu.com</item>
+        <item>http://www.baidu.com</item>
+    </string-array>
+
 </resources>

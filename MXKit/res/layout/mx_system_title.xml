@@ -15,6 +15,14 @@
         android:layout_centerVertical="true"
         android:src="@drawable/mx_btn_back" />
 
+    <ImageButton
+        android:id="@+id/title_left_web_button"
+        style="@style/mx_mm_title_button"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mx_btn_close" />
+
     <com.minxing.kit.ui.widget.MXButton
         android:id="@+id/btn_mx_system_title_cancel"
         style="@style/mx_mm_title_button"
@@ -100,6 +108,22 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:src="@drawable/mx_btn_single_chat"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/right_btn_check_person_multi_detail"
+        style="@style/mx_mm_title_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mx_btn_multi_chat"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/right_btn_check_person_ocu_detail"
+        style="@style/mx_mm_title_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mx_btn_setting"
         android:visibility="gone" />
 
     <ImageButton

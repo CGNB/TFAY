@@ -104,4 +104,11 @@
     <color name="mx_circle_background_color">@android:color/white</color>
     <color name="mx_chat_detail_background_color">@android:color/white</color>
     <color name="mx_chat_detail_text_color">#ff000000</color>
+
+    <color name="mx_chat_group_qr_mask">#8C8C8C</color>
+
+    <!-- safe keyBoard -->
+    <color name="keyboard_black">#000000</color>
+    <color name="keyboard_switch_text_color">#4cc3ff</color>
+    <color name="keyboard_transparent">#00000000</color>
 </resources>

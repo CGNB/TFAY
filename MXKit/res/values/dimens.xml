@@ -180,5 +180,12 @@
     <dimen name="mx_chat_item_padding_left">12dp</dimen>
 
     <dimen name="mx_circle_pop_center_vertical">350.0dip</dimen>
-    
+
+    <!-- safe keyBoard -->
+    <dimen name="keyboard_key_height">40dp</dimen>
+    <dimen name="keyboard_horizontalGap">9dp</dimen>
+    <dimen name="keyboard_verticalGap">6dp</dimen>
+    <dimen name="keyboard_key_height_double">120dp</dimen>
+
+
 </resources>
