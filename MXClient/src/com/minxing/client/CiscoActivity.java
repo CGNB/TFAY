@@ -98,7 +98,7 @@ public class CiscoActivity extends Activity implements View.OnClickListener {
         Intent intent = getIntent();
         DEFAULT_SERVER = intent.getStringExtra(CISCO_SERVER);
         DEFAULT_ADDRESS = intent.getStringExtra(CISCO_ADDRESS);
-
+        JabberGuestCall.disableVideoLicenseActivation(this);//接触liciense认证
         mSelfView = (SelfView) this.findViewById(R.id.selfView);
         mCallPlaceholder = (LinearLayout) findViewById(R.id.placeHolderLinearLayout);
 
@@ -107,6 +107,7 @@ public class CiscoActivity extends Activity implements View.OnClickListener {
         mInstance = JabberGuestCall.createInstance(this, mCallUri);
         mInstance.registerContext(this);
         mInstance.setSelfTextureView(mSelfView.getTextureView());
+
         JabberGuestCall.registerInvalidCertificateHandler(mCertificateHandler);
 
 //        btCall = (Button) findViewById(R.id.call);
