@@ -1,4 +1,4 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
     <style name="mx_app_base_theme" parent="android:Theme.Light">
     </style>
@@ -646,12 +646,10 @@
     <style name="mx_switch_custom_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textOn"></item>
-        <item name="android:textOff"></item>
         <item name="android:thumbTextPadding">18dip</item>
         <item name="android:switchMinWidth">36dip</item>
         <item name="android:track">@drawable/mx_switch_track</item>
-
+        <!--<item name="android:showText" tools:ignore="NewApi">false</item>-->
         <item name="android:thumb">@drawable/mx_switch_thumb_normal</item>
     </style>
 

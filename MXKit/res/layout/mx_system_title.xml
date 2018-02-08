@@ -23,6 +23,24 @@
         android:layout_centerVertical="true"
         android:src="@drawable/mx_btn_close" />
 
+    <ImageButton
+        android:visibility="gone"
+        android:minWidth="35dp"
+        android:id="@+id/title_left_button_web"
+        style="@style/mx_mm_title_button"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mx_btn_back" />
+
+    <ImageButton
+        android:minWidth="35dp"
+        android:id="@+id/title_left_web_button_small"
+        style="@style/mx_mm_title_button"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/title_left_button_web"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mx_btn_close" />
+
     <com.minxing.kit.ui.widget.MXButton
         android:id="@+id/btn_mx_system_title_cancel"
         style="@style/mx_mm_title_button"

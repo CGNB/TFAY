@@ -13,10 +13,19 @@
 
     <string name="mx_appcenter_storage_external">false</string>
 
+    <!-- 安全键盘 -->
+    <string name="client_enable_safe_keyboard">false</string>
 
     <string-array name="mx_web_param_white_list">
         <item>https://www.baidu.com</item>
         <item>http://www.baidu.com</item>
     </string-array>
+    <string name="mx_logback_file_hide">false</string>
+    <string name="mx_logback_logcat_hide">false</string>
 
+    <!--VERBOSE:2 INFO:4 WARN:5 ERROR: 6-->
+    <string name="mx_log_level">7</string>
+
+    <!--h5web应用、插件应用，header左上角是否支持增加返回操作-->
+    <string name="mx_web_show_header_return_btn">false</string>
 </resources>

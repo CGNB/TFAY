@@ -7,9 +7,9 @@ apply plugin: 'android-library'
 version = '4.0.0'
 dependencies {
     compile fileTree(dir: 'libs')
+    
     compile files('libs/android-skin-loader.jar')
     compile files('libs/zxing-core-3.3.0.jar')
-    compile files('libs/mxkit-v5.3.8.075350.jar')
 }
 android {
     compileSdkVersion 19
