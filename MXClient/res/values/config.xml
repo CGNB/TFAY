@@ -111,5 +111,5 @@
     <!--应用中心轮播图是否显示-->
     <string name="client_app_center_banner_show">false</string>
     <!--h5web应用、插件应用，header左上角是否支持增加返回操作-->
-    <string name="mx_web_show_header_return_btn">false</string>
+    <string name="mx_web_show_header_return_btn">true</string>
 </resources>
